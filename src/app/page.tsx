@@ -9,10 +9,10 @@ export default function Home() {
     <>
       <div className="">
         <HeroSec />
-        {/* <BrowseRange />
+        <BrowseRange />
         <Products></Products>
         <Rooms></Rooms>
-        <Furnitures></Furnitures> */}
+        <Furnitures></Furnitures>
       </div>
     </>
   );

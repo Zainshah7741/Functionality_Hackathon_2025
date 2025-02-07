@@ -22,10 +22,10 @@ const ProductSection = () => {
                     <span className='bg-red-400 absolute right-6  top-6 w-12 flex items-center justify-center text-white h-12 text-base pl-1 tracking-wide font-semibold rounded-full'>-30%</span>
                     <div className='bg_hover absolute h-full w-full'></div>
                     <div className='child absolute h-full w-full opacity-0 text-white flex flex-col items-center justify-center gap-5'>
-                        <Link href='/cart'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Add to cart</button></Link>
+                        <Link href='/shop'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Shop</button></Link>
                         <div className='flex text-base font-semibold gap-6 tracking-wide'>
                             <h2><IoMdShare className='inline leading-10' /> Share</h2>
-                            <Link href={'/comparison'}><h2><TbArrowsRightLeft className='inline' /> Compare</h2></Link>
+                            <Link href={'/shop'}><h2><TbArrowsRightLeft className='inline' /> Shop</h2></Link>
                             <h2><IoMdHeartEmpty className='inline' />  Like</h2>
                         </div>
                     </div>
@@ -43,10 +43,10 @@ const ProductSection = () => {
                     <span className='bg-[#2ec1ac] absolute right-6  top-6 w-12 flex items-center justify-center text-white h-12 text-base pl-1 tracking-wide font-semibold rounded-full'>New</span>
                     <div className='bg_hover absolute h-full w-full'></div>
                     <div className='child absolute h-full w-full opacity-0 text-white flex flex-col items-center justify-center gap-5'>
-                        <Link href='/cart'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Add to cart</button></Link>
+                        <Link href='/shop'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Shop</button></Link>
                         <div className='flex text-lg font-semibold gap-4 tracking-wide  '>
                             <h2><IoMdShare className='inline leading-10' /> Share</h2>
-                            <Link href={'/comparison'}><h2><TbArrowsRightLeft className='inline' /> Compare</h2></Link>
+                            <Link href={'/shop'}><h2><TbArrowsRightLeft className='inline' /> Shop</h2></Link>
                             <h2><IoMdHeartEmpty className='inline' /> Like</h2>
                         </div>
                     </div>
@@ -63,10 +63,10 @@ const ProductSection = () => {
                     <span className='bg-red-400 absolute right-6  top-6 w-12 flex items-center justify-center text-white h-12 text-base pl-1 tracking-wide font-semibold rounded-full'>-50%</span>
                     <div className='bg_hover absolute h-full w-full'></div>
                     <div className='child absolute h-full w-full opacity-0 text-white flex flex-col items-center justify-center gap-5'>
-                        <Link href='/cart'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Add to cart</button></Link>
+                        <Link href='/shop'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Shop</button></Link>
                         <div className='flex text-base font-semibold gap-6 tracking-wide'>
                             <h2><IoMdShare className='inline leading-10' /> Share</h2>
-                            <Link href={'/comparison'}><h2><TbArrowsRightLeft className='inline' /> Compare</h2></Link>
+                            <Link href={'/shop'}><h2><TbArrowsRightLeft className='inline' /> Shop</h2></Link>
                             <h2><IoMdHeartEmpty className='inline' />  Like</h2>
                         </div>
                     </div>
@@ -84,10 +84,10 @@ const ProductSection = () => {
                     <span className='bg-[#2ec1ac] absolute right-6  top-6 w-12 flex items-center justify-center text-white h-12 text-base pl-1 tracking-wide font-semibold rounded-full'>New</span>
                     <div className='bg_hover absolute h-full w-full'></div>
                     <div className='child absolute h-full w-full opacity-0 text-white flex flex-col items-center justify-center gap-5'>
-                        <Link href='/cart'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Add to cart</button></Link>
+                        <Link href='/shop'><button className={`${semi.className}  border py-3 px-14 bg-white text-[#B88E2F] text-base leading-[150%]`}>Shop</button></Link>
                         <div className='flex text-base font-semibold gap-6 tracking-wide'>
                             <h2><IoMdShare className='inline leading-10' /> Share</h2>
-                            <Link href={'/comparison'}><h2><TbArrowsRightLeft className='inline' /> Compare</h2></Link>
+                            <Link href={'/shop'}><h2><TbArrowsRightLeft className='inline' /> Shop</h2></Link>
                             <h2><IoMdHeartEmpty className='inline' />  Like</h2>
                         </div>
                     </div>
